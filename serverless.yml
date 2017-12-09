@@ -1,0 +1,14 @@
+service: mal-animelist
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  animelist:
+    handler: handler.handler
+    events:
+      - http: 'GET /animelist'
+
+plugins:
+  - serverless-offline

@@ -1,0 +1,20 @@
+{
+  "name": "mal-watching-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arturo Coronel <aoitsu3@gmail.com> (https://datyayu.xyz)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jxon": "^2.0.0-beta.5",
+    "node-fetch": "^1.7.3",
+    "serverless-http": "^1.5.2"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.16.0"
+  }
+}
